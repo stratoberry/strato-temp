@@ -20,8 +20,6 @@ const EPOCH = 1391212800
 func main() {
 	flag.Parse()
 
-	// todo output to a file
-	//log.SetOutput("/data/logs/strato-temperature.log")
 	var dev *bmp085.Device
 	var err error
 
